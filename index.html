@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/Styles.css">
-    <script defer src="Javascript/app.js"></script>
-    <title>Hernan Curuchet</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <section class="hidden">
-        <img id="Portadaimage" src="Image1.jpg" alt="Oceano">
-        <div class="centerBox">
-            <div class="centerTextname1">Hernan</div> 
-            <div class="centerTextname2">Nahuel</div> 
-            <div class="centerTextname3">Curuchet</div>   
-        </div>
-        <div class="centerTextdata">
-                Data Scientist
-        </div>
-    </section>
-    <section class="hidden">
-        <p id="textAboutMe">
-            I have spent the past several
-            years inmmersing myself in big
-            data and machine learning. Im
-            exited to bring my expertise in the role of
-            Statistical Programmer.
-            I have experience in data
-            visualization and developing
-            workflows to compare diverse
-            data source. I have strong
-            communication skills and
-            experience in explaining
-            technical topics to general
-            audience.
-            Thank you very much for your
-            time and consideration.
-        </p>
-        <div id="profile">
-            <img id="profileimage" src="Image2.jpeg" alt="FotoPerfil">
-        </div>
-    </section>
-    <section class="hidden">
-        <h1>
-            Diabetes Risk Prediction Model
-        </h1>
-        <img id="Grafic1" src="Image3.png" alt="Grafico">
-    </section>
-</body>
+<!-- Container (Menu) -->  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">About me</a></li>
+    <li><a data-toggle="tab" href="#menu2">Portfolio</a></li>
+    <li><a data-toggle="tab" href="#menu3">Contact</a></li>
+  </ul>
 
+<!-- Container (Portada) --> 
+<div id="home" class="container-fluid">
+  <img src="Img/jellyfish.jpg" class="img-fluid" alt="Jellyfish">
+  <div id="CenterText">
+    <p class="text-center">Hernan</p>
+    <p class="text-center">Nahuel</p>
+    <p class="text-center">Curuchet</p>
+  </div>
+  <div id="CenterData">
+    <p>Data Scientist</p> 
+  </div>
+</div>
+
+<!-- Container (About me) -->
+<div id="menu1" class="row">
+  <div class="col-sm-4">
+    <img src="Img/Image0.jpeg" alt="BarGraph" width="400" height="300">
+  </div>
+  <div id="AboutMeText" class="col-sm-8">
+    I have spent the past several years inmmersing myself in big data and machine learning. Im exited to bring my expertise in the role of Statistical Programmer. I have experience in data visualization and developing workflows to compare diverse data source. I have strong communication skills and experience in explaining technical topics to general audience.
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <h4>What I have created</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Img/Image3.png" alt="BarGraph" width="400" height="300">
+        <p><strong>Bar Graph</strong></p>
+        <p>Bar Graph about Diabetes Prediction Risk</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Img/Image2.png" alt="New York" width="400" height="300">
+        <p><strong>Correlation Graph</strong></p>
+        <p>Correlation between variables</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Img/Image1.png" alt="San Francisco" width="400" height="300">
+        <p><strong>Stacked Bar Graph</strong></p>
+        <p>Relation between 3 variables</p>
+      </div>
+    </div>
+  </div><br>
+</body>
 </html>
