@@ -63,6 +63,12 @@ body{
     color: #fff;
     text-align: center;
 }
+#AboutMeTitle{
+    left: 50%;
+
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+}
 
 #AboutMeIMG{
     margin-top: 20px;

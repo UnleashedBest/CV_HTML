@@ -5,7 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -32,6 +35,9 @@
 </div>
 
 <!-- Container (About me) -->
+<div id="AboutMeTitle" class="container-fluid text-center">
+<h1>About Me</h1>
+</div>
 <div id="menu1" class="row">
   <div id="AboutMeIMG" class="col-sm-4">
     <img src="Img/Image0.jpeg" alt="BarGraph" width="300" height="600">
@@ -42,7 +48,7 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="portfolio" class="container-fluid text-center">
   <h2>Portfolio</h2><br>
   <h4>What I have created</h4>
   <div class="row text-center slideanim">
@@ -57,7 +63,7 @@
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="Img/Image2.png" alt="New York" width="400" height="300">
+        <img src="Img/Image2.png" alt="New York" width="400" height="200">
         <div id="IMGCaption">
         <p><strong>Correlation Graph</strong></p>
         <p>Correlation between variables</p>
@@ -74,5 +80,43 @@
       </div>
     </div>
   </div><br>
+
+  <footer id="footer" class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/curuchet_hernan" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/hernan_curuchet/" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/hernan-curuchet/" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/UnleashedBest" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white">Hernan Curuchet</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 </body>
 </html>
