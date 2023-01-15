@@ -48,8 +48,27 @@ body{
 #portfolio{
     font-family: 'Poppins',sans-serif;
     color: #fff;
+    background: #232323;
 }
 
 #AboutMeText{
-    background-color: #807E7D;
+    position: absolute;
+    background: #232323;
+    border-radius: 20px;
+    width: 40%;
+    height: 400px;
+    left: 50%;
+    top: 120%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+#AboutMeIMG{
+    margin-top: 20px;
+    left: 10%;
+}
+
+#IMGCaption{
+    color: #232323;
 }
